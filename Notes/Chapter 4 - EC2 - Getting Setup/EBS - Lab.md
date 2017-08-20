@@ -69,13 +69,5 @@ cd /awsdev
 ls
 ```
 
-# Exam Tips
-- EBS Volumes can be changed on the fly (except for magnetic standard).
-- Best practice to stop the EC2 instance and then change the volume
-- You can change volume types by taking a snapshot and then using the snapshot to create a new volume
-- If you can change a volume on the fly you must wait for 6 hours before making another change
-- You can scale EBS Volumes up only
-- Volumes must be in the same AZ as the EC2 instances
-
 
 
