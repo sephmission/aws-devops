@@ -36,3 +36,24 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 Family | Speciality | Use case
 -------|------------|----------
 D2 | Dense Storage | Fileservers / Data Warehousing / Hadoop
+R4 | Memory Optimized | Memory Intensive Apps / DBs
+M4 | General Purpose | Application Servers
+C4 | Compute Optimized | CPU Intensive Apps / DBs
+G2 | Graphics Intensive | Video Encoding / 3D Application Streaming
+I2 | High Speed Storage | NoSQL DBs, Data Warehousing, etc.
+F1 | Field Programmable Gate Array | Hardware acceleration for your code
+T2 | Lowest Cost, General Purpose | Web Servers / Small DBs
+P2 | Graphics/General Purpose GPU | Machine Learning, Bit Coin Mining, etc.
+X1 | Memory Optimized | SAP HANA/Apache Spark, etc.
+
+> How to easily remember: **DR Mc GIFT PX**
+> **D** for Density
+> **R** for RAM
+> **M** - main choice for general purpose apps
+> **C** for compute
+> **G** - graphics
+> **I** for IOPS
+> **F** for FPGA
+> **T** for cheap general purpose (think T2 Micro)
+> **P** - graphics (think pics)
+> **X** - Extreme Memory
