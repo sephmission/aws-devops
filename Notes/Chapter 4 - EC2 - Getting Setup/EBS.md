@@ -3,10 +3,10 @@ Amazon EBS allows you to create storage volumes and attach them to Amazon EC2 in
 
 ## EBS Volume Types
 * **General Purpose SSD (GP2)**
- * General purpose, balances both price and performance
- * Ratio of 3 IOPS per GB with up to 10,000 IOPS and the ability to burst up to 3000 IOPS for extended periods of time for volumes under 1Gib.
+  * General purpose, balances both price and performance
+  * Ratio of 3 IOPS per GB with up to 10,000 IOPS and the ability to burst up to 3000 IOPS for extended periods of time for volumes under 1Gib.
 * **Provisioned IOPS SSD (IO1)**
--- Designed for I/O intensive applications such as large relational or NoSQL databases.
+  * Designed for I/O intensive applications such as large relational or NoSQL databases.
 -- Use if you need more than 10,000 IOPS.
 -- Can provision up to 20,000 IOPS per volume
 - **Throughput Optimized HDD (ST1)**
