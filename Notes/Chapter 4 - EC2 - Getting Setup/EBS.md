@@ -1,4 +1,4 @@
-# EBS
+# EBS Lab
 
 Create new instance in EC2 with additional magnetic volume. Access the instance via SSH then login then check the existing volumes. If there's no file system yet, create new file system in the *magnetic* volume called `/dev/xvdb`.
 
