@@ -40,9 +40,9 @@ Reference:
 * :white_check_mark: Security Groups
 * :white_check_mark: Upgrading EBS Volume Types - Lab - Part 1
 * :white_check_mark: Upgrading EBS Volume Types - Lab - Part 2
-* EFS - Lab
-* The AWS CLI - Using Credentials
-* The AWS CLI - Using Roles
+* :white_check_mark: EFS - Lab
+* :white_check_mark: The AWS CLI - Using Credentials
+* :white_check_mark: The AWS CLI - Using Roles
 * S3 CLI & Regions
 * CLI commands for the Developer Exam
 * Bash Scripting
