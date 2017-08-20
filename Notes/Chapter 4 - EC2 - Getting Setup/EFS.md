@@ -25,10 +25,10 @@ service httpd start
 cd /
 ```
 7. Go to EFS then check **EC2 mount instructions**
-> Example: `sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ efs` but change `efs` to the html folder. Use `sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ /var/www/html`
+> Example: `sudo mount -t nfs4 -o *************************** efs` but change `efs` to the html folder. Use `sudo mount -t nfs4 -o *************************** /var/www/html`
 8. Apply mount instructions to CLI of the first instance then check html folder then create a file
 ```
-sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ /var/www/html
+sudo mount -t nfs4 -o *************************** /var/www/html
 cd html
 nano index.html
 ```
