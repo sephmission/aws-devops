@@ -15,4 +15,22 @@ Amazon Elastic File System (Amazon EFS) is a file storage service for Amazon Ela
 2. Provision Classic Load Balancers with security group. Change the health check interval to **10 seconds** and threshold to **3**. Then assign the load balancers to the 2 instances.
 3. Note the public IP address of the EC2 instances for login.
 > Make sure that the instances are with the same Security Group of the EFS. *Add the default security group*.
-4. Login to the instances via SSH
+4. Login to **BOTH** instances via SSH, use `ec2-user`
+5. Raise the privelges to root.
+`sudo su`
+6. Install apache, start service then go to the root directory
+```
+yum install httpd -y
+service httpd start
+cd /
+```
+7. Go to EFS then check **EC2 mount instructions**
+> Example: `sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ efs` but change `efs` to the html folder. Use `sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ /var/www/html`
+8. Apply mount instructions to CLI of the first instance then check html folder then create a file
+```
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-6a4cac53.efs.ap-southeast-2.amazonaws.com:/ /var/www/html
+cd html
+nano index.html
+```
+9. On the second instance, check the html folder if it has the file file from the first instance. It should be there.
+10. Check the load balancers if the status is now *InService*.
