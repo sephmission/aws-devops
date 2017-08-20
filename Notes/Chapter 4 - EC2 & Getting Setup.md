@@ -43,3 +43,39 @@ mount /dev/xvdb /awsdev
 ls
 ```
 
+## Snapshot
+
+Unmount the volume from the directory then create a new snapshot.
+```
+cd /
+umount /dev/xvdb
+```
+1. Right-click the volume then create new snapshot
+2. Go to the snapshot menu then create new volume with volume type of **Provisioned IOPS SSD (IO1)**.
+3. Attach the new volume to the instance.
+
+> Make sure you create the new volume from the snapshot in the same Availability Zone (AZ) as the instance you want to attach to.
+
+Access the instance via SSH then check if the new volume has been attached. Then check the file system if there are any files.
+```
+lsblk
+file -s /dev/xvdf
+```
+
+Mount the new volume to the `/awsdev` directory and check if the file *index.html* is in the directory.
+```
+mount /dev/xvdf /awsdev
+cd /awsdev
+ls
+```
+
+# Exam Tips
+- EBS Volumes can be changed on the fly (except for magnetic standard).
+- Best practice to stop the EC2 instance and then change the volume
+- You can change volume types by taking a snapshot and then using the snapshot to create a new volume
+- If you can change a volume on the fly you must wait for 6 hours before making another change
+- You can scale EBS Volumes up only
+- Volumes must be in the same AZ as the EC2 instances
+
+
+
