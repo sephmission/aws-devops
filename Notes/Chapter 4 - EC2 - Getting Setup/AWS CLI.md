@@ -1,21 +1,19 @@
-# AWS CLI
+# AWS CLI labs
 
-Login to the instance via SSH using `ec2-user` then raise to privilege to root
+1. Login to the instance via SSH using `ec2-user` then raise to privilege to root
 `sudo su`
 
-## AWS CLI
-
-Check AWS s3 service. *No s3 buckets configured*
+2. Check AWS s3 service. *No s3 buckets configured*
 ```
 aws s3 ls
 ```
 
-Configure AWS
+3. Configure AWS
 ```
 aws configure
 ```
 
-Then enter the following:
+4. Then enter the following:
 * AWS Access Key ID
 * AWS Secret Key
 * Region Name: *check reference below*
@@ -23,19 +21,19 @@ Then enter the following:
 
 > Access and Secret Key can be located from the .csv file downloaded from **IAM**. For default region name reference: [https://docs.aws.amazon.com/general/latest/gr/rande.html](https://docs.aws.amazon.com/general/latest/gr/rande.html)
 
-Check again the AWS s3 service, if any
+5. Check again the AWS s3 service, if any
 `aws s3 ls`
 
-Check help commands
+6. Check help commands
 `aws s3 help`
 
-Go to the bottom to see the available commands, for example:
+7. Go to the bottom to see the available commands, for example:
 * cp - copy
 * ls - list
 * mb - make bucket
 * mv - move files
 
-To check where the credentials are stored, to to home directory
+8. To check where the credentials are stored, to to home directory
 ```
 cd ~
 ls
@@ -43,13 +41,13 @@ cd .aws
 ls
 nano credentials
 ```
-### To self-descruct an ec2 instance
+9.  To self-descruct an ec2 instance
 Check information of the instances
 ```
 aws ec2 describe-instances
 ```
 
-Copy InstanceID then terminate instance
+10. Copy InstanceID then terminate instance
 ```
 aws ec2 terminate-instances --instance-ids [instance_id]
 ```
