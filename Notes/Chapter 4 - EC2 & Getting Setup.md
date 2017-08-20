@@ -1,16 +1,25 @@
 # Create new Instance with additional Magnetic volume
 
-1. Access via SSH then login as `ec2-user`
-2. Check disk volumes
-``
+Access the instance via SSH then login then check the existing volumes. If there's no file system yet, create new file system in the *magnetic* volume called `/dev/xvdb`.
+
+```
 lsblk
-``
-3. Create new file system in the new volume `xvdb`
-```
+ec2-user
+lsblk
 mkfs -t ext4 /dev/xvdb
-mkdir /awsdev
 ```
-4. Mount volume to the directory
-``
+
+Create new directory called *awsdev* then mount the magnetic volume `/dev/xvdb` to the directory.
+```
+mkdir /awsdev
 mount /dev/xvdb /awsdev
-``
+```
+
+Check the volumes if the new directory has been attached to the magnetic volume. Then access the `/awsdev` directory and check all files listed. Create a new file called *index.html* in the current directory.
+```
+lsblk
+cd /awsdev
+ls
+nano index.html
+ls
+```
