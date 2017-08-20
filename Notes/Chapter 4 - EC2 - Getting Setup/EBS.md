@@ -20,17 +20,7 @@ Amazon EBS allows you to create storage volumes and attach them to Amazon EC2 in
   * Cannot be a boot volume
 * **Magnetic (Standard)**
   * Lowest cost per gigabyte of all EBS volume types that is bootable. Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.
-
-## Exam Tips in EC2
-* Know the difference between:
-  * On Demand
-  * Spot
-  * Reserved
-  * Dedicated Hosts
-* Remember with spots instances:
-  * If you terminate the instance, you pay for the hour
-  * If AWS terminates the spot instance, you get the hour it was terminated in for free.
-  
+ 
 ## Exam Tips in EBS
 * EBS Consist of:
   * SSD, General Purpose - GP2 - (Up to 10,000 IOPS)
