@@ -10,13 +10,13 @@ Grants users limited and temporary access to AWS resources. Users can come from 
 - **Cross Account Access**
 -- Let's users from one AWS account resources in another
 
-## Understanding Key Terms
+# Understanding Key Terms
 - **Federation**: combining or joining a list of users in one domain (such as IAM) with a list of users in another domain (such as Active Directory, Facebook, etc)
 - **Identity Broker**: a service that allows you to take an identity from point A and join it (federate it) to point B
 - **Identity Store**: Services like Active Directory, Facebook, Google, etc
 - **Identities**: a user of a service like Facebook, etc
 
-## What we have learnt so far?
+# What we have learnt so far?
 - IAM is universal. It does not apply to regions at this time.
 - The "root account" is simple the account created when first setup your AWS account. It has complete Admin access.
 - New Users have NO permissions when first created.
