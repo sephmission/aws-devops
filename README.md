@@ -6,40 +6,40 @@ Reference:
 
 ## Course Outline & Progress
 **CHAPTER 1 - Introduction to the Course**
-* Introduction To The Certified Developer - Associate Course :white_check_mark:
-* Information For Students Who Have Completed The Solutions Architect Course :white_check_mark: :white_check_mark:
-* Setting The Right Expectations, This Is Not A Course To Teach You How To Code :white_check_mark:
-* How To Get Development Experience With AWS :white_check_mark:
-* Getting Started - What You'll Need :white_check_mark:
-* Exam Blue Print :white_check_mark:
-* The Free Alexa Skill For Amazon Echo :white_check_mark:
+* :ballot_box_with_check: Introduction To The Certified Developer - Associate Course
+* :ballot_box_with_check: Information For Students Who Have Completed The Solutions Architect Course
+* :ballot_box_with_check: Setting The Right Expectations, This Is Not A Course To Teach You How To Code
+* :ballot_box_with_check: How To Get Development Experience With AWS
+* :ballot_box_with_check: Getting Started - What You'll Need
+* :ballot_box_with_check: Exam Blue Print
+* :ballot_box_with_check: The Free Alexa Skill For Amazon Echo
 
 **CHAPTER 2 - AWS - 10,000 Feet Overview**
-* This History So Far :white_check_mark:
-* 10,000 Foot Overview - Part 1 :white_check_mark:
-* 10,000 Foot Overview - Part 2 :white_check_mark:
-* 10,000 Foot Overview - Part 3 :white_check_mark:
-* 10,000 Foot Overview - Part 4 :white_check_mark:
-* 10,000 Foot Quiz :white_check_mark:
+* This History So Far
+* 10,000 Foot Overview - Part 1
+* 10,000 Foot Overview - Part 2
+* 10,000 Foot Overview - Part 3
+* 10,000 Foot Overview - Part 4
+* 10,000 Foot Quiz
 
 **CHAPTER 3 - Identity Access Management (IAM)**
-* IAM 101 :white_check_mark:
-* IAM Lab :white_check_mark:
-* Security Token Service :white_check_mark:
-* Active Directory Federation :white_check_mark:
-* Web Identity Federation :white_check_mark:
-* IAM Summary :white_check_mark:
-* Identity Access Management (IAM) Quiz :white_check_mark:
+* IAM 101
+* IAM Lab
+* Security Token Service
+* Active Directory Federation
+* Web Identity Federation
+* IAM Summary
+* Identity Access Management (IAM) Quiz
 
 **CHAPTER 4 - EC2 & Getting Setup**
-* EC2 101 - Part 1 :white_check_mark:
-* EC2 101 Part 2 :white_check_mark:
-* Launch Our First EC2 Instance - Part 1 :white_check_mark:
-* Launch Our First EC2 Instance - Part 2 :white_check_mark:
-* How to use Putty (Windows Users Only) :white_check_mark:
-* Security Groups :white_check_mark:
-* Upgrading EBS Volume Types - Lab - Part 1 :white_check_mark:
-* Upgrading EBS Volume Types - Lab - Part 2 :white_check_mark:
+* EC2 101 - Part 1
+* EC2 101 Part 2
+* Launch Our First EC2 Instance - Part 1
+* Launch Our First EC2 Instance - Part 2
+* How to use Putty (Windows Users Only)
+* Security Groups
+* Upgrading EBS Volume Types - Lab - Part 1
+* Upgrading EBS Volume Types - Lab - Part 2
 * EFS - Lab
 * The AWS CLI - Using Credentials
 * The AWS CLI - Using Roles
