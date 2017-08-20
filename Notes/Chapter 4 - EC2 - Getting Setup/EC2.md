@@ -57,3 +57,13 @@ How to easily remember: **DR Mc GIFT PX**
 - **P** - graphics (think pics)
 - **X** - Extreme Memory
 
+
+## Exam Tips in EC2
+* Know the difference between:
+  * On Demand
+  * Spot
+  * Reserved
+  * Dedicated Hosts
+* Remember with spots instances:
+  * If you terminate the instance, you pay for the hour
+  * If AWS terminates the spot instance, you get the hour it was terminated in for free.
