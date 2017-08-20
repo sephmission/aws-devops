@@ -110,6 +110,6 @@
 
 **10. Which AWS service offers object (file based) storage?**
 - Cloud Front
-- **Correct Answer: ** _Simple Storage Service (S3)_
+- :white_check_mark: Simple Storage Service (S3)
 - Elastic Block Stroe
 - DynamoDB
