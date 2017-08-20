@@ -4,10 +4,10 @@
 2. Create new role
 3. Select: **Amazon EC2**
 4. Type in the filter: **s3**
-5. Select *AmazonS3FullAccess
+5. Select **AmazonS3FullAccess**
 6. Input Role Name: **S3-Admin-Access**
 7. Create an EC2 Instance
-  * Choose IAM role: **S3-Admin-Access**
+  a. Choose IAM role: **S3-Admin-Access**
 
 Reminders:
 - All roles are global.
