@@ -434,7 +434,6 @@ $ yum remove httpd
 # Ping a remote host by sending only 5 packets.
 
 $ ping -c 5 gmail.com
-$ yum remove httpd
 ```
 [Ping Tutorial: 15 Effective Ping Command Examples](http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/)
 
