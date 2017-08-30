@@ -9,6 +9,7 @@
 2. Attach the MyS3Admin Access
 
 # Access the instance in SSH
+
 ```
 ec2-user
 sudo su
@@ -16,4 +17,5 @@ aws s3 ls
 aws s3 cp --recursive s3://awsdev-sg1 /home/ec2-user --region ap-southeast-1
 ls
 ```
+
 > This will copy the files in the buckets to the ec2 instance directory /home/ec2-user
