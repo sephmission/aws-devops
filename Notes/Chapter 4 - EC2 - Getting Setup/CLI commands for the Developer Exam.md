@@ -9,6 +9,7 @@
    - Launch and access the instance in SSH
    
 **3. Set the following**
+
 ```
 aws configure
 AWS Access Key ID [None]: skip
@@ -19,11 +20,35 @@ Default output format [None]: skip
 
 ## Important AWS Commands in the exam
 
-   - **How to describe instances?** `describe-instances`
-   - **How to describe instances that available to us?** `describe-images`
-   - **Create an instance?** `run instances` or `aws ec2 run-instances --image-id ami-abc12345 --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e`
-   - **Check available images?** `describe-images` or `aws ec2 describe-images --owners amazon --filters "Name=platform,Values=windows" "Name=root-device-type,Values=ebs"`
-   - **Terminate an instance?** `aws ec2 terminate-instances --instance-ids [instance id]`
+   - **How to describe instances?** 
+   
+   ```
+   describe-instances
+   ```
+   
+   - **How to describe instances that available to us?** 
+   
+   ```
+   describe-images
+   ```
+   
+   - **Create an instance?** 
+   
+   ```
+   aws ec2 run-instances --image-id ami-abc12345 --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e
+   ```
+   
+   - **Check available images?** 
+   
+   ```
+   describe-images` or `aws ec2 describe-images --owners amazon --filters "Name=platform,Values=windows" "Name=root-device-type,Values=ebs"
+   ```
+   
+   - **Terminate an instance?** 
+   
+   ```
+   aws ec2 terminate-instances --instance-ids [instance id]
+   ```
 
 ## Exam Tips
 * Use
