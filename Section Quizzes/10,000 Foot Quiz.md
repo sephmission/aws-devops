@@ -1,116 +1,111 @@
 # Questions
 
 **1. AWS ________ allows organizations to do complex analysis on large volumes of data.**
-- ElastiCache
-- Elastic Map Reduce
-- Big Data Processing
-- EC2
+
+    a. ElastiCache
+    b. Elastic Map Reduce
+    c. Big Data Processing
+    d. EC2
 
 **2. What does an AWS Region consist of?**
-- A distinct location within a geographic area designed to provide high availability to a specific geography.
-- A collection of databases that can only be accessed from a specific geographic region.
-- An independent collection of AWS computing resources in a defined geography.
-- A console that gives you a quick, global picture of your cloud computing environment.
+
+    a. A distinct location within a geographic area designed to provide high availability to a specific geography.
+    b. A collection of databases that can only be accessed from a specific geographic region.
+    c. An independent collection of AWS computing resources in a defined geography.
+    d. A console that gives you a quick, global picture of your cloud computing environment.
 
 **3. There are more Regions than Edge Locations.**
-- False
-- True
+
+    a. False
+    b. True
 
 **4. How many regions are there on the AWS Platform?**
-- 14
-- 16
-- 11
-- 15
+
+    a. 14
+    b. 16
+    c. 11
+    d. 15
 
 **5. An AWS VPC is a component of which AWS family of services?**
-- Global Infrastructure
-- Database Services
-- Networking Services
-- Compute Services
+
+    a. Global Infrastructure
+    b. Database Services
+    c. Networking Services
+    d. Compute Services
 
 **6. Amazon's data warehousing service is called Redshift.**
-- True
-- False
+
+    a. True
+    b. False
 
 **7. AWS's NoSQL product offering is known as ___________.**
-- DynamoDB
-- RDS
-- ElastiCache
-- MongoDB
+
+    a. DynamoDB
+    b. RDS
+    c. ElastiCache
+    d. MongoDB
 
 **8. Which statement best describes Availability Zones?**
-- Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.
-- An Availability Zone is a restricted area designed specifically for creating Virtual Private Clouds.
-- An Availability Zone is a Content Distribution Network used to make content available to a certain geographic area.
-- Availability Zones are two zones containing compute resources that are designed to automatically maintain synchronized copies of each other's data.
+
+    a. Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.
+    b. An Availability Zone is a restricted area designed specifically for creating Virtual Private Clouds.
+    c. An Availability Zone is a Content Distribution Network used to make content available to a certain geographic area.
+    d. Availability Zones are two zones containing compute resources that are designed to automatically maintain synchronized copies of each other's data.
 
 **9. Amazon's highly scalable DNS service is called ____________.**
-- Route66
-- DNS Direct
-- DynamoDNS
-- Route53
+
+    a. Route66
+    b. DNS Direct
+    c. DynamoDNS
+    d. Route53
 
 **10. Which AWS service offers object (file based) storage?**
-- Cloud Front
-- Simple Storage Service (S3)
-- Elastic Block Stroe
-- DynamoDB
+
+    a. Cloud Front
+    b. Simple Storage Service (S3)
+    c. Elastic Block Stroe
+    d. DynamoDB
 
 # Answers
 **1. AWS ________ allows organizations to do complex analysis on large volumes of data.**
-- ElastiCache
-- :white_check_mark: **`Elastic Map Reduce`**
-- Big Data Processing
-- EC2
+
+   Correct Answer: **`b. Elastic Map Reduce`**
 
 **2. What does an AWS Region consist of?**
-- A distinct location within a geographic area designed to provide high availability to a specific geography.
-- A collection of databases that can only be accessed from a specific geographic region.
-- :white_check_mark: **`An independent collection of AWS computing resources in a defined geography.`**
-- A console that gives you a quick, global picture of your cloud computing environment.
+
+   Correct Answer: **`c. An independent collection of AWS computing resources in a defined geography.`**
 
 **3. There are more Regions than Edge Locations.**
-- :white_check_mark: **`False`**
-- True
+
+   Correct Answer: **`a. False`**
 
 **4. How many regions are there on the AWS Platform?**
-- 14
-- :white_check_mark: **`16`**
-- 11
-- 15
+
+   Correct Answer: **`b. 16`**
+    
 > As of February 2017, there are 16 AWS Regions. As this number will only increase over time, please refer to the AWS documentation for the most recent information.
 
 
 **5. An AWS VPC is a component of which AWS family of services?**
-- Global Infrastructure
-- Database Services
-- :white_check_mark: **`Networking Services`**
-- Compute Services
+
+   Correct Answer: **`c. Networking Services`**
 
 **6. Amazon's data warehousing service is called Redshift.**
-- :white_check_mark:  **`True`**
-- False
+
+   Correct Answer:  **`a. True`**
 
 **7. AWS's NoSQL product offering is known as ___________.**
-- :white_check_mark: **`DynamoDB`**
-- RDS
-- ElastiCache
-- MongoDB
+
+   Correct Answer: **`a. DynamoDB`**
 
 **8. Which statement best describes Availability Zones?**
-- :white_check_mark: **`Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.`**
-- An Availability Zone is a restricted area designed specifically for creating Virtual Private Clouds.
-- An Availability Zone is a Content Distribution Network used to make content available to a certain geographic area.
-- Availability Zones are two zones containing compute resources that are designed to automatically maintain synchronized copies of each other's data.
+
+   Correct Answer: **`a. Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.`**
 
 **9. Amazon's highly scalable DNS service is called ____________.**
-- Route66
-- DNS Direct
-- DynamoDNS
-- :white_check_mark: **`Route53`**
+
+   Correct Answer: **`d. Route53`**
 
 **10. Which AWS service offers object (file based) storage?**
-- Cloud Front
-- :white_check_mark: **`Simple Storage Service (S3)`**
-- Elastic Block Stroe
-- DynamoDB
+
+   Correct Answer: **`b. Simple Storage Service (S3)`**
