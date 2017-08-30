@@ -69,43 +69,53 @@
 # Answers
 **1. AWS ________ allows organizations to do complex analysis on large volumes of data.**
 
-   Correct Answer: **`b. Elastic Map Reduce`**
+    Correct Answer: 
+    b. Elastic Map Reduce
 
 **2. What does an AWS Region consist of?**
 
-   Correct Answer: **`c. An independent collection of AWS computing resources in a defined geography.`**
+    Correct Answer: 
+    c. An independent collection of AWS computing resources in a defined geography.
 
 **3. There are more Regions than Edge Locations.**
 
-   Correct Answer: **`a. False`**
+    Correct Answer: 
+    a. False
 
 **4. How many regions are there on the AWS Platform?**
 
-   Correct Answer: **`b. 16`**
+    Correct Answer: 
+    b. 16
     
 > As of February 2017, there are 16 AWS Regions. As this number will only increase over time, please refer to the AWS documentation for the most recent information.
 
 
 **5. An AWS VPC is a component of which AWS family of services?**
 
-   Correct Answer: **`c. Networking Services`**
+    Correct Answer: 
+    c. Networking Services
 
 **6. Amazon's data warehousing service is called Redshift.**
 
-   Correct Answer:  **`a. True`**
+    Correct Answer:  
+    a. True
 
 **7. AWS's NoSQL product offering is known as ___________.**
 
-   Correct Answer: **`a. DynamoDB`**
+    Correct Answer: 
+    a. DynamoDB
 
 **8. Which statement best describes Availability Zones?**
 
-   Correct Answer: **`a. Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.`**
+    Correct Answer: 
+    a. Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.
 
 **9. Amazon's highly scalable DNS service is called ____________.**
 
-   Correct Answer: **`d. Route53`**
+    Correct Answer: 
+    d. Route53
 
 **10. Which AWS service offers object (file based) storage?**
 
-   Correct Answer: **`b. Simple Storage Service (S3)`**
+    Correct Answer: 
+    b. Simple Storage Service (S3)
