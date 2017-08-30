@@ -17,20 +17,32 @@ Amazon Elastic File System (Amazon EFS) is a file storage service for Amazon Ela
 > Make sure that the instances are with the same Security Group of the EFS. *Add the default security group*.
 4. Login to **BOTH** instances via SSH, use `ec2-user`
 5. Raise the privelges to root.
-`sudo su`
+
+```
+sudo su
+```
+
 6. Install apache, start service then go to the root directory
+
 ```
 yum install httpd -y
 service httpd start
 cd /
 ```
-7. Go to EFS then check **EC2 mount instructions**
-> Example: `sudo mount -t nfs4 -o *************************** efs` but change `efs` to the html folder. Use `sudo mount -t nfs4 -o *************************** /var/www/html`
+
+7. Go to EFS then check **EC2 mount instructions**, Example: 
+
+```
+sudo mount -t nfs4 -o *************************** efs` but change `efs` to the html folder. Use `sudo mount -t nfs4 -o *************************** /var/www/html
+```
+
 8. Apply mount instructions to CLI of the first instance then check html folder then create a file
+
 ```
 sudo mount -t nfs4 -o *************************** /var/www/html
 cd html
 nano index.html
 ```
+
 9. On the second instance, check the html folder if it has the file file from the first instance. It should be there.
 10. Check the load balancers if the status is now *InService*.
