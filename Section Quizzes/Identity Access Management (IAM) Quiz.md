@@ -69,49 +69,49 @@
 **1. When using Web Identity Federation to allow a user to access an AWS service (such as an S3 bucket), which of the following is the correct order of step?**
 
     Correct Answer: 
-    A user authenticates with facebook first. They are then given an ID token by facebook. An API call, AssumeRoleWithWebIdentity, is then used in conjuction with the ID token. A user is then granted temporary security credentials.
+    c. A user authenticates with facebook first. They are then given an ID token by facebook. An API call, AssumeRoleWithWebIdentity, is then used in conjuction with the ID token. A user is then granted temporary security credentials.
 
 **2. AWS recommends that EC2 instances have credentials stored on them so that the instances can access other resources (such as S3 buckets).**
 
     Correct Answer: 
-    False
+    a. False
 
 **3. When authenticating using Web Identity Federation, which of the following is the API call used to obtain temporary security credentials?**
 
     Correct Answer: 
-    AssumeRoleWithWebIdentity
+    c. AssumeRoleWithWebIdentity
 
 **4. The AWS sign-in endpoint for SAML is https://signin.aws.amazon.com/saml.**
 
     Correct Answer: 
-    True
+    b. True
 
 **5. When using Active Directory to authenticate to AWS, which of the following answers contains the correct steps, in the correct order?**
 
     Correct Answer: 
-    The user navigates to ADFS webserver. The user enter in their single sign on credentials. The user's web browser receives a SAML assertion from the AD server. The user's browser then posts the SAML assertion to the AWS SAML end point for SAML and the AssumeRoleWithSAML API request is used to request temporary security credentials. 5) The user is then able to access the AWS Console.
+    c. The user navigates to ADFS webserver. The user enter in their single sign on credentials. The user's web browser receives a SAML assertion from the AD server. The user's browser then posts the SAML assertion to the AWS SAML end point for SAML and the AssumeRoleWithSAML API request is used to request temporary security credentials. 5) The user is then able to access the AWS Console.
 
 **6. What is the name of the API call used to request temporary security credentials from the AWS platform when federating with Active Directory?**
 
     Correct Answer: 
-    AssumeRoleWithSAML
+    c. AssumeRoleWithSAML
 
 **7. SAML stands for Security Assertion Markup Language.**
 
     Correct Answer: 
-    True
+    a. True
 
 **8. Which statement best describes IAM?**
 
     Correct Answer: 
-    IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform.
+    c. IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform.
 
 **9. Which of the following is NOT a feature of IAM?**
 
     Correct Answer: 
-    Allows you to setup biometric authentication, so that no passwords are required.
+    c. Allows you to setup biometric authentication, so that no passwords are required.
 
 **10. What is the name of the service that allows users to use their social media account to gain temporary access to the AWS platform?**
 
     Correct Answer: 
-    Web Identity Federation
+    c. Web Identity Federation
