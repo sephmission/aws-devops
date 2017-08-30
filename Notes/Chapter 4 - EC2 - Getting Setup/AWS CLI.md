@@ -1,9 +1,13 @@
 # AWS CLI labs
 
 1. Login to the instance via SSH using `ec2-user` then raise to privilege to root
-`sudo su`
+
+```
+sudo su
+```
 
 2. Check AWS s3 service. *No s3 buckets configured*
+
 ```
 aws s3 ls
 ```
