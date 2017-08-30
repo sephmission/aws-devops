@@ -1,4 +1,4 @@
-## Daily Bash Practice
+## Daily AWS CLI/Bash Practice
 
 1. Update files
 1. Install apache
