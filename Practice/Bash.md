@@ -1,7 +1,7 @@
 ## Daily AWS CLI/Bash Practice
 
 1. Update files
-1. Install apache
+1. Install and update apache
 2. Run apache and set apache to be available once instance has started from shutdown
 3. Create new file called **index.html** file in html directory with **Hello world**
 4. Create new directory called **assets**
