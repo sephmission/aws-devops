@@ -220,3 +220,21 @@ $ ifconfig eth0 up
 $ ifconfig eth0 down
 ```
 
+### uname command examples
+```
+# Uname command displays important information about the system such as — Kernel name, Host name, Kernel release number, Processor type, etc.,
+# Sample uname output from a Ubuntu laptop is shown below.
+
+$ uname -a
+Linux john-laptop 2.6.32-24-generic #41-Ubuntu SMP Thu Aug 19 01:12:52 UTC 2010 i686 GNU/Linux
+```
+
+### whatis command examples
+```
+# Whatis command displays a single line description about a command.
+$ whatis ls
+ls		(1)  - list directory contents
+
+$ whatis ifconfig
+ifconfig (8)         - configure a network interface
+```
