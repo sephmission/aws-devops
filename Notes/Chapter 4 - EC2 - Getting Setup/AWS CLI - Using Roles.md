@@ -8,6 +8,7 @@
 6. Input Role Name: **S3-Admin-Access**
 7. Create an EC2 Instance with IAM role: **S3-Admin-Access**
 8. Login into the instance via SSH using `ec2-user` and check amazon s3
+
 ```
 sudo su
 aws s3 ls
