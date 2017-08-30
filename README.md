@@ -43,9 +43,9 @@ Reference:
 * :white_check_mark: EFS - Lab
 * :white_check_mark: The AWS CLI - Using Credentials
 * :white_check_mark: The AWS CLI - Using Roles
-* S3 CLI & Regions
-* CLI commands for the Developer Exam
-* Bash Scripting
+* :white_check_mark: S3 CLI & Regions
+* :white_check_mark: CLI commands for the Developer Exam
+* :white_check_mark: Bash Scripting
 * Lambda
 * Install PHP and Composer
 * Using the PHP SDK to access S3
