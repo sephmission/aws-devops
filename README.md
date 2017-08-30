@@ -5,7 +5,9 @@ Reference:
 [acloudguru - Certified Developer - Associate 2017](https://acloud.guru/course/aws-certified-developer-associate)
 
 ## Course Outline & Progress
+
 **CHAPTER 1 - Introduction to the Course**
+
 * :white_check_mark: Introduction To The Certified Developer - Associate Course
 * :white_check_mark: Information For Students Who Have Completed The Solutions Architect Course
 * :white_check_mark: Setting The Right Expectations, This Is Not A Course To Teach You How To Code
@@ -15,6 +17,7 @@ Reference:
 * :white_check_mark: The Free Alexa Skill For Amazon Echo
 
 **CHAPTER 2 - AWS - 10,000 Feet Overview**
+
 * :white_check_mark: This History So Far
 * :white_check_mark: 10,000 Foot Overview - Part 1
 * :white_check_mark: 10,000 Foot Overview - Part 2
@@ -23,6 +26,7 @@ Reference:
 * :white_check_mark: 10,000 Foot Quiz
 
 **CHAPTER 3 - Identity Access Management (IAM)**
+
 * :white_check_mark: IAM 101
 * :white_check_mark: IAM Lab
 * :white_check_mark: Security Token Service
@@ -32,6 +36,7 @@ Reference:
 * :white_check_mark: Identity Access Management (IAM) Quiz
 
 **CHAPTER 4 - EC2 & Getting Setup**
+
 * :white_check_mark: EC2 101 - Part 1
 * :white_check_mark: EC2 101 Part 2
 * :white_check_mark: Launch Our First EC2 Instance - Part 1
