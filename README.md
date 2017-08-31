@@ -51,13 +51,20 @@ Reference:
 * :white_check_mark: S3 CLI & Regions
 * :white_check_mark: CLI commands for the Developer Exam
 * :white_check_mark: Bash Scripting
-* Lambda
-* Install PHP and Composer
-* Using the PHP SDK to access S3
-* EC2 Instance Metadata
+* :white_check_mark: Lambda
+* :white_check_mark: Install PHP and Composer
+* :white_check_mark: Using the PHP SDK to access S3
+* :white_check_mark: EC2 Instance Metadata
 * Elastic Load Balancers - Exam Tips
 * SDKs Exam tips
 * Summary Of EC2 Section
 * EC2 Quiz
+
+**CHAPTER 9 - Simple Notification Service (SNS)**
+
+* :white_check_mark: Introduction To SNS
+* :white_check_mark: Creating An SNS Topic
+* :white_check_mark: SNS Summary
+* :white_check_mark: SNS Quiz
 
 > Total of 17 Chapters. Will add new progress updates once I have stepped into another chapter.
