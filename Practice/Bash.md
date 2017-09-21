@@ -22,3 +22,36 @@
 18. Mount the EBS volume to the **website** directory
 19. Check the **website** directory
 20. Unmount EBS volume
+
+## Commands
+
+```
+
+ec2-user
+sudo su
+yum update -y
+yum install httpd -y
+service start httpd
+cd /var/www/html
+nano index.html
+mkdir assets
+cd /var/www/html/assets
+aws s3 ls
+aws s3 cp *.jpg --recursive s3://aws /var/www/html/assets --region ap-southeast-1
+cd /var/www/html
+nano index.html
+mkdir backup
+tar cvf backup.tar ./backup
+mv backup.tar ./backup
+cd /var/www/html/backup
+tar xvf backup.tar
+cd /var/www/html
+mkdir website
+lsblk
+file -s /dev/xvdf
+mkfs -t ext4 /dev/xvdb
+mount /dev/xvdb /website
+cd /var/www/html/website
+umount /dev/xvdb
+
+```
