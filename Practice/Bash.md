@@ -31,7 +31,7 @@ ec2-user
 sudo su
 yum update -y
 yum install httpd -y
-service start httpd
+service httpd start
 cd /var/www/html
 nano index.html
 mkdir assets
